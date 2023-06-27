@@ -48,9 +48,9 @@ function App() {
         <footer className="my-row" id="section3">
           <h1>Contact</h1>
           <section className="links">
-            <a href="https://google.com" target="_blank" rel="noopener noreferrer">Google</a>
-            <a href="https://github.com/Cristian01021/hw4-4" target="_blank" rel="noopener noreferrer">Github</a>
-            <a href="https://blitz.gg/valorant/profile/Cristian1021-1021" target="_blank" rel="noopener noreferrer">Valorant</a>
+            <a href="https://google.com" target="_blank" rel="noopener noreferrer" className="button">Google</a>
+            <a href="https://github.com/Cristian01021/hw4-4" target="_blank" rel="noopener noreferrer" className="button">Github</a>
+            <a href="https://blitz.gg/valorant/profile/Cristian1021-1021" target="_blank" rel="noopener noreferrer" className="button">Valorant</a>
           </section>
         </footer>
       </div>

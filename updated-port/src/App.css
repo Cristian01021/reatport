@@ -1,0 +1,142 @@
+body {
+  display: flex;
+  justify-content: start;
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+  ;
+  flex-direction: column;
+  height: 110vh;
+  margin: 0px
+}
+
+#mainbody {
+  margin-bottom: -70px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+
+li {
+  display: inline-block;
+  margin: 20px
+}
+
+figure {
+  /* background-color: blue ; */
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/0/0b/Mountains-1412683.svg);
+  /* background-position: ; */
+  margin: 0;
+  height: 300px;
+  margin-top: -20px;
+}
+
+main section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+main section img {
+  height: auto;
+  width: 250px;
+  margin: 15px;
+}
+
+.my-row {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.my-row section {
+  width: 68%;
+  height: 50%;
+}
+
+.my-row h1 {
+  width: 30%;
+  text-align: left;
+  border-right: 2px solid black;
+  height: 40px;
+  padding-right: 1px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-left: 25px;
+  padding-top: 20px;
+  padding-bottom: 70px;
+}
+
+.picturename {
+  position: absolute;
+  margin-right: 970px;
+
+}
+
+.picturename1 {
+  position: absolute;
+  margin-right: 300px;
+}
+
+.picturename2 {
+  position: absolute;
+  margin-left: 320px;
+  margin-top: 0px;
+  padding-top: 19px;
+}
+
+.picturename3 {
+  position: absolute;
+  margin-left: 970px;
+  margin-top: 0px;
+  padding-top: 19px;
+}
+
+.links {
+  display: inline-block;
+  text-align: center;
+}
+
+
+.button:hover {
+  background-color: wheat;
+
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 100px;
+}
+
+@media screen and (max-width: 992px) {
+  .words {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .picturename1 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .picturename2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .picturename3 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
